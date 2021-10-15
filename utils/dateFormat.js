@@ -96,3 +96,7 @@ module.exports = (
 
   return formattedTimeStamp;
 };
+
+// In programming, a getter is typically a special type of function that takes the 
+// stored data you are looking to retrieve and modifies or formats it upon return. 
+// Think of it like middleware for your data! Just like a virtual, the getter will transform the data before it gets to the controller(s).

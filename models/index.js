@@ -1,3 +1,7 @@
-const Pizza = require('./Pizza');
+// When we add new models, MongoDB doesn't require us to restart
+// and recreate the database. SQL does, however.
 
-module.exports = { Pizza };
+const Pizza = require('./Pizza');
+const Comment = require('./Comment');
+
+module.exports = { Pizza, Comment };
